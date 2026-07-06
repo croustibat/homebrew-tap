@@ -7,15 +7,14 @@ matters, and copies a ready-to-paste prompt for your AI agent.
 ## Install
 
 ```sh
-brew install --cask croustibat/tap/pinpoint
-```
-
-Or tap first, then install:
-
-```sh
 brew tap croustibat/tap
+brew trust croustibat/tap        # Homebrew 6+ only: trust this third-party tap
 brew install --cask pinpoint
 ```
+
+> **Note.** Homebrew 6 refuses to load casks from a third-party tap until you
+> trust it once with `brew trust`. On older Homebrew this step isn't needed and
+> can be skipped — a plain `brew install --cask croustibat/tap/pinpoint` works.
 
 ## Update
 
