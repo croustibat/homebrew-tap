@@ -1,6 +1,6 @@
 cask "pinpoint" do
-  version "0.5.0"
-  sha256 "ff70cd49b9d5b74f78408e3c084c84fc88dd2577b087dd519b9013b567107415"
+  version "0.6.0"
+  sha256 "1047a72e3f1e534effe0f06e3b8946a5087478c569cdf3956d264a85e1aba9a3"
 
   url "https://github.com/croustibat/Pinpoint/releases/download/v#{version}/Pinpoint.dmg"
   name "Pinpoint"
