@@ -18,9 +18,12 @@ brew install --cask pinpoint
 brew install --cask murmure
 ```
 
-> **Note.** Homebrew 6 refuses to load casks from a third-party tap until you
-> trust it once with `brew trust`. On older Homebrew this step isn't needed and
-> can be skipped — a plain `brew install --cask croustibat/tap/pinpoint` works.
+> **Note.** Since Homebrew 6, casks from a third-party tap load only once
+> trusted. `brew trust croustibat/tap` trusts the whole tap, so the short names
+> above work. Installing with the full name, e.g.
+> `brew install --cask croustibat/tap/murmure`, needs neither `brew tap` nor
+> `brew trust`: it trusts that cask by itself. Older Homebrew skips trust
+> entirely.
 
 ## Update
 
