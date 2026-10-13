@@ -1,6 +1,6 @@
 cask "murmure" do
-  version "1.2.0"
-  sha256 "bf5290cd1c3ef0993d4d844c11750199e6130ac1887c5d0192e9794839459e67"
+  version "1.3.0"
+  sha256 "70af52b3fa0d6da1eaeffc104c2a79f08219f64bb48cedbb5e56d8dbbe527985"
 
   url "https://github.com/croustibat/murmure/releases/download/v#{version}/Murmure.dmg"
   name "Murmure"
